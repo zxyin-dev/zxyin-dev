@@ -72,7 +72,7 @@
 
 ## 联系
 
-📧 **zhuxianyin@yeah.net** ｜ 目前**求职中**：Python 数据采集 / 自动化、IT 支持 / 运维
+📧 **zhuxianyin@yeah.net** ｜ 目前**求职中**：Python 爬虫 / 数据采集 / 自动化（深圳 · 惠州 · 贵阳）
 
 ---
 
