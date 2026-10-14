@@ -1,4 +1,4 @@
-# 朱显银
+﻿# 朱显银
 
 **Python 数据采集 / 自动化** ｜ 现居惠州，接受深圳现场面试、可即时到岗
 
@@ -17,7 +17,7 @@
 
 ## 项目
 
-### [sign-lab](https://github.com/15186406708/sign-lab) · 签名复算靶场
+### [sign-lab](https://github.com/zxyin-dev/sign-lab) · 签名复算靶场
 自建签名校验服务端 + 自建四层混淆的下发脚本，客户端**全程不执行任何 JS** 完成静态还原：
 用结构（而不是变量名）定位取值模式、识别异或解码逻辑、
 以 **AST 白名单**对常量折叠表达式求值（而不是图省事用 `eval`）。
@@ -26,7 +26,7 @@
 * 另 23 项端到端断言：限流、参数截断、随机串重放、退避
 * 零第三方依赖 ｜ MIT
 
-### [ratelimit-kit](https://github.com/15186406708/ratelimit-kit) · 限流与弹性重试库
+### [ratelimit-kit](https://github.com/zxyin-dev/ratelimit-kit) · 限流与弹性重试库
 把两个项目里反复写到的四个原语抽成独立库：
 
 | 原语 | 解决的坑 |
@@ -85,12 +85,12 @@ on-site interviews in Shenzhen immediately.
 I build collectors that are meant to **keep running**, not to work once: global rate
 limiting, in-place 429 backoff, resumable checkpoints, and idempotent persistence.
 
-* **[sign-lab](https://github.com/15186406708/sign-lab)** — a self-built signature
+* **[sign-lab](https://github.com/zxyin-dev/sign-lab)** — a self-built signature
   playground. The server (and its four-layer obfuscation) is mine, so nothing
   third-party is involved. The client recovers the signing salt by **pure static
   analysis, executing no JavaScript**, using an AST allowlist instead of `eval`.
   24 golden-vector cases match byte-for-byte between Node and Python.
-* **[ratelimit-kit](https://github.com/15186406708/ratelimit-kit)** — four primitives
+* **[ratelimit-kit](https://github.com/zxyin-dev/ratelimit-kit)** — four primitives
   extracted from two real projects: global token-bucket limiting, in-place 429 backoff
   with separate retry budgets, monotonic atomic checkpoints, and an idempotent
   append-only store whose dedupe set is rebuilt from the log itself. 72 unit tests,
